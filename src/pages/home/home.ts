@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { CsPage } from '../cs/cs';
 import { MiPage } from '../mi/mi';
 import { ComPage } from '../com/com';
+import { PappsPage } from '../papps/papps';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ export class HomePage {
   cs=CsPage;
   mi=MiPage;
   com=ComPage;
+  papps=PappsPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -28,5 +30,8 @@ export class HomePage {
   }
   clickCOM(){
     this.navCtrl.push(this.com);
+  }
+  clickPAPPS(){
+    this.navCtrl.push(this.papps);
   }
 }

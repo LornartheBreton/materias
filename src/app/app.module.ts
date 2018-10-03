@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CsPage } from '../pages/cs/cs';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     HistoriaPage,
-    CsPage
+    CsPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { CsPage } from '../pages/cs/cs';
     MyApp,
     HomePage,
     HistoriaPage,
-    CsPage
+    CsPage,
+    MiPage
   ],
   providers: [
     StatusBar,

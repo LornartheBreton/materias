@@ -11,6 +11,7 @@ import { CsPage } from '../pages/cs/cs';
 import { MiPage } from '../pages/mi/mi';
 import { ComPage } from '../pages/com/com';
 import { PappsPage } from '../pages/papps/papps';
+import { RobPage } from '../pages/rob/rob';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PappsPage } from '../pages/papps/papps';
     CsPage,
     MiPage,
     ComPage,
-    PappsPage
+    PappsPage,
+    RobPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { PappsPage } from '../pages/papps/papps';
     CsPage,
     MiPage,
     ComPage,
-    PappsPage
+    PappsPage,
+    RobPage
   ],
   providers: [
     StatusBar,

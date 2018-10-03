@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { HistoriaPage } from '../historia/historia';
 import { CsPage } from '../cs/cs';
 import { MiPage } from '../mi/mi';
+import { ComPage } from '../com/com';
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,7 @@ export class HomePage {
   historia=HistoriaPage;
   cs=CsPage;
   mi=MiPage;
+  com=ComPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -23,5 +25,8 @@ export class HomePage {
   }
   clickMI(){
     this.navCtrl.push(this.mi);
+  }
+  clickCOM(){
+    this.navCtrl.push(this.com);
   }
 }
